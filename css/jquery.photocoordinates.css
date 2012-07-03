@@ -1,0 +1,7 @@
+/**
+	Default styles
+**/         
+#tc_container { display:block; position:relative; z-index: 500; margin: 0px auto; clear:both; }
+#tc_container a.coords { background-color: transparent; display:block; overflow:hidden; position:absolute; }
+#tc_container:hover a.coords { background-color: #fff; opacity: 0.5; }
+a.coords:hover { background-color: #F6A8B6 !important; opacity: 0.5 !important; }

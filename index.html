@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <title>Photo Coordinates: Tool for marking areas on images.</title>
+  <link rel="stylesheet" href="css/jquery.photocoordinates.css" type="text/css" />
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="/js/utils/jquery.photocoordinate.js"></script>
+  <script type="text/javascript">
+	(function($){
+		$(function(){
+			$('#image_map').tag_coordinates({
+				photo_id: 100,
+				coordinates: { markerSize: 100 }
+			});
+		});                                                                                   
+	})(jQuery);
+  </script>
+
+</head>
+<body>
+	<div style="width:980px;margin: 0 auto;" class="clearfix">
+		<img id="image_map" src="images/Demo.jpg" />
+	</div>
+</body>
+</html>
